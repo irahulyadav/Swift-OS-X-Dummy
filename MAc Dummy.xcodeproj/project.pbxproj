@@ -14,12 +14,12 @@
 		3705F0621C76EA96008C2F7C /* MAc_DummyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3705F0611C76EA96008C2F7C /* MAc_DummyTests.swift */; };
 		3705F06D1C76EA96008C2F7C /* MAc_DummyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3705F06C1C76EA96008C2F7C /* MAc_DummyUITests.swift */; };
 		3705F0831C76F501008C2F7C /* PrefrencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3705F0821C76F501008C2F7C /* PrefrencesViewController.swift */; };
-		3705F0851C76F96D008C2F7C /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 3705F0841C76F96D008C2F7C /* facebook.png */; };
-		3705F0871C76FA87008C2F7C /* google.png in Resources */ = {isa = PBXBuildFile; fileRef = 3705F0861C76FA87008C2F7C /* google.png */; };
 		B76DE4891C7A21DF0020A74B /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76DE4871C7A21DF0020A74B /* WebViewController.swift */; };
 		B76DE48C1C7A22FE0020A74B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76DE48B1C7A22FE0020A74B /* SignUpViewController.swift */; };
 		B76DE48F1C7A23170020A74B /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76DE48D1C7A23170020A74B /* SignInViewController.swift */; };
 		B76DE4921C7A23FF0020A74B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76DE4911C7A23FF0020A74B /* MainViewController.swift */; };
+		B7C390CA1C7AF09D005E90DB /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = B7C390C81C7AF09D005E90DB /* facebook.png */; };
+		B7C390CB1C7AF09D005E90DB /* google.png in Resources */ = {isa = PBXBuildFile; fileRef = B7C390C91C7AF09D005E90DB /* google.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,12 +53,12 @@
 		3705F06C1C76EA96008C2F7C /* MAc_DummyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAc_DummyUITests.swift; sourceTree = "<group>"; };
 		3705F06E1C76EA96008C2F7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3705F0821C76F501008C2F7C /* PrefrencesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrefrencesViewController.swift; sourceTree = "<group>"; };
-		3705F0841C76F96D008C2F7C /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebook.png; path = ../../../../Desktop/facebook.png; sourceTree = "<group>"; };
-		3705F0861C76FA87008C2F7C /* google.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = google.png; path = ../../../../Desktop/google.png; sourceTree = "<group>"; };
 		B76DE4871C7A21DF0020A74B /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		B76DE48B1C7A22FE0020A74B /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		B76DE48D1C7A23170020A74B /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		B76DE4911C7A23FF0020A74B /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B7C390C81C7AF09D005E90DB /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		B7C390C91C7AF09D005E90DB /* google.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = google.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,9 +109,9 @@
 		3705F04E1C76EA96008C2F7C /* MAc Dummy */ = {
 			isa = PBXGroup;
 			children = (
+				B7C390C81C7AF09D005E90DB /* facebook.png */,
+				B7C390C91C7AF09D005E90DB /* google.png */,
 				B76DE4861C7A21BC0020A74B /* ViewController */,
-				3705F0861C76FA87008C2F7C /* google.png */,
-				3705F0841C76F96D008C2F7C /* facebook.png */,
 				3705F04F1C76EA96008C2F7C /* AppDelegate.swift */,
 				3705F0511C76EA96008C2F7C /* ViewController.swift */,
 				3705F0531C76EA96008C2F7C /* Assets.xcassets */,
@@ -256,8 +256,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3705F0541C76EA96008C2F7C /* Assets.xcassets in Resources */,
-				3705F0851C76F96D008C2F7C /* facebook.png in Resources */,
-				3705F0871C76FA87008C2F7C /* google.png in Resources */,
+				B7C390CA1C7AF09D005E90DB /* facebook.png in Resources */,
+				B7C390CB1C7AF09D005E90DB /* google.png in Resources */,
 				3705F0571C76EA96008C2F7C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
